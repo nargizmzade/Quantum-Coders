@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!-- 
+    SITE 1101 Principles of Information Systems 
+    (c)202X by Name Surname 
+    Submitted in partial fulfillment of the requirements of the course.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Website</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="web-project-css.css">
+        <script src="script.js" defer></script>
+        <link rel="icon" href="media/Logo.png" type="image/png">     
+    </head>
+    <body>
+        <video autoplay muted loop id="myVideo">
+            <source src="media/quantum-video.mp4" type="video/mp4">
+        </video>
+        <script>
+            var video = document.getElementById('myVideo');
+            video.playbackRate = 0.5;
+        </script>
+        <nav>
+            <a class="logo">
+                <img src="media/Logo.png" alt="Logo" class="nav-logo">
+            </a>
+            <ul class="navList">
+                <li class="navItem">
+                    <a href="index.html" class="active navLink">Home</a>
+                </li>
+                <li class="navItem">
+                    <a href="team-members.html" class="navLink">Team</a>
+                </li>
+                <li class="navItem">
+                    <a href="hour-of-code.html" class="navLink">Hour of Code</a>
+                </li>
+                <li class="navItem">
+                    <a href="web-project.html" class="navLink">Website</a>
+                </li>
+                <li class="navItem">
+                    <a href="code-artist.html" class="navLink"> Code Art </a>
+                </li>
+            </ul>
+        </nav>
+
+        <section>
+    <header>Website</header>
+    
+    <div class="section" id="preparation">
+        <h3 class="sectionHeading">1. Preparation</h3>
+        <p class="sectionText">
+            To create our website, we began by working on individual parts to refresh and familiarize ourselves with HTML, CSS, and JS. After some practice, we committed to working on the website daily. We met either online or in person to collaborate as a team. While building the website, we found YouTube tutorials helpful. The most challenging parts included understanding the box-container concept, distinguishing between margin and padding, and mastering position and display properties.
+        </p>
+    </div>
+
+
+    <div class="section" id="practice">
+        <h3 class="sectionHeading">2. Practice</h3>
+        <p class="sectionText">
+            After learning the basics, we began practicing by writing code for simple web pages. These exercises involved using HTML to structure content, CSS to style elements visually, and JavaScript to add interactivity. This hands-on practice helped us become more comfortable with arranging and organizing website elements effectively.
+        </p>
+    </div>
+
+    <div class="section" id="implementation">
+        <h3 class="sectionHeading">3. Implementation</h3>
+        <p class="sectionText">
+            During the implementation phase, we focused on designing our pages. We began by sketching the layouts, then used those sketches as a guide for coding. This approach made the coding process much more efficient, as it helped us avoid rewriting the same code multiple times.
+        </p>
+    </div>
+
+
+    <div class="section" id="profiles">
+        <h3 class="sectionHeading">4. Contributions</h3>
+        <table class="sectionText" style="margin-left: 20px; border-collapse: collapse; width: 50%;">
+            <thead>
+                <tr>
+                    <th style="border: 1px solid #fff; padding: 8px;">Name</th>
+                    <th style="border: 1px solid #fff; padding: 8px;">Contribution</th>
+                    <th style="border: 1px solid #fff; padding: 8px;">Codecademy profile URLs</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="border: 1px solid #fff; padding: 8px;">Rukufa Guliyeva</td>
+                    <td style="border: 1px solid #fff; padding: 8px;">33%</td>
+                    <td style="border: 1px solid #fff; padding: 8px;">https://www.codecademy.com/profiles/rukufaguliyeva</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #fff; padding: 8px;">Nihad Suleymanov</td>
+                    <td style="border: 1px solid #fff; padding: 8px;">33%</td>
+                    <td style="border: 1px solid #fff; padding: 8px;">https://www.codecademy.com/profiles/NihadSuleymanov</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #fff; padding: 8px;">Nargiz Mammadzada</td>
+                    <td style="border: 1px solid #fff; padding: 8px;">33%</td>
+                    <td style="border: 1px solid #fff; padding: 8px;">https://www.codecademy.com/profiles/NargizMammadzada</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #fff; padding: 8px;">Elnur Kazimli</td>
+                    <td style="border: 1px solid #fff; padding: 8px;">0%</td>
+                    <td style="border: 1px solid #fff; padding: 8px;"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    </section>
+        
+        <div class="mode">
+            <button id="toggle-button">
+                <img src="media/light-mode.png" alt="Mode Icon" id="mode-icon">
+            </button>
+        </div>
+    </body>
+</html>

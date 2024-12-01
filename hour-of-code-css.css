@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #1c1b29, #3e3a61);
+    color: #fff;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Header Section */
+.hero {
+    padding: 50px 20px;
+    background: linear-gradient(to bottom, #3e3a61, #4b4b81);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    color: #f1c40f;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #ddd;
+    margin-top: 10px;
+}
+
+/* Introduction Section */
+.intro-section {
+    padding: 40px 20px;
+    background: #4b4b81;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.intro-section h2 {
+    font-size: 2em;
+    color: #f1c40f;
+    margin-bottom: 10px;
+}
+
+.intro-section p {
+    font-size: 1em;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #ddd;
+}
+
+/* Cards Section */
+.cards-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.card {
+    background: #ffffff;
+    color: #000;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    font-size: 1.5em;
+    color: #4b4b81;
+}
+
+.card p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* Feedback & Future Plans Sections */
+.feedback-section,
+.future-plans-section {
+    padding: 40px 20px;
+    background: #3e3a61;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.feedback-section h2,
+.future-plans-section h2 {
+    font-size: 2em;
+    color: #f1c40f;
+    margin-bottom: 10px;
+}
+
+.feedback-section p,
+.future-plans-section p {
+    font-size: 20px;
+    max-width: 800px;
+    margin: 0 auto 20px;
+    color: #ddd;
+}
+
+
+.highlights {
+    background: linear-gradient(to right, #4b4b81, #6c63ff);
+    color: #fff;
+    padding: 15px 0;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+}
+
+.highlights-wrapper {
+    display: inline-block;
+    animation: slide 10s linear infinite;
+}
+
+.highlights p {
+    display: inline-block;
+    margin: 0 50px;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+  

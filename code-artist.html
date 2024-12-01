@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- 
+    SITE 1101 Principles of Information Systems 
+    (c)202X by Name Surname 
+    Submitted in partial fulfillment of the requirements of the course.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Code Art</title>
+        <link rel="stylesheet" href="code-art.css">
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+        <link rel="icon" href="media/Logo.png" type="image/png">
+      
+    </head>
+    <body>
+        <video autoplay muted loop id="myVideo">
+            <source src="media/quantum-video.mp4" type="video/mp4">
+        </video>
+        <script>
+            var video = document.getElementById('myVideo');
+            video.playbackRate = 0.5;
+        </script>
+        <nav class="code-artist">
+            <a class="logo">
+                <img src="media/Logo.png" alt="Logo" class="nav-logo">
+            </a>
+            <ul class="navList">
+                <li class="navItem">
+                    <a href="index.html" class="active navLink">Home</a>
+                </li>
+                <li class="navItem">
+                    <a href="team-members.html" class="navLink">Team</a>
+                </li>
+                <li class="navItem">
+                    <a href="hour-of-code.html" class="navLink">Hour of Code</a>
+                </li>
+                <li class="navItem">
+                    <a href="web-project.html" class="navLink">Website</a>
+                </li>
+                <li class="navItem">
+                    <a href="code-artist.html" class="navLink"> Code Art </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="art">
+            <canvas id="canvas1"> </canvas>       
+            <script src="scripts.js"></script>
+        </div>   
+        
+        <div class="mode">
+            <button id="toggle-button">
+                <img src="media/light-mode.png" alt="Mode Icon" id="mode-icon">
+            </button>
+        </div>
+        <div>
+            <canvas id="canvas1"> </canvas>       
+            <script src="scripts.js"></script>
+        </div>         
+    </body>
+</html>

@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.welcome {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+}
+
+.welcome h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(9, 110, 59);
+}
+
+.welcome h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(9, 110, 59);
+}
+
+.welcome p {
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    margin: 20px 40px;
+}
+
+.welcome img {
+    width: 150px;
+    height: 150px;
+}
+
+.section {
+    color: #ffffff;
+}
+
+.logo {
+    width: 100px;
+    aspect-ratio: 1;
+    margin: 0 20px 0 40px;
+    overflow: hidden;
+    transform: transform 0.3s ease-in-out;
+}
+
+nav {
+    width: 100%;
+    height: fit-content;
+    padding: 15px 0;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.navList {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.navItem {
+    transition: 0.4s;
+}
+
+.navItem:hover {
+    transform: scale(1.2);
+}
+
+nav img {
+    max-width: 100%;
+    height: auto;
+    z-index: 20;
+}
+
+.navLink {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 4px;
+    transition: 0.5s;
+    font-family: fantasy;
+}
+
+.navLink:hover {
+    color: rgb(252, 6, 219);
+    text-shadow: 2px 2px 4px rgba(202, 93, 193, 0.5);
+
+}
+
+.nav-logo:hover {
+    transform: scale(0.8) rotate(360deg)
+}
+
+.nav-logo {
+    transition: transform 1s ease-in-out;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255)
+}
+
+body {
+    background: url('media/quantum-video.mp4');
+    background-repeat: repeat;
+    background-position: relative;
+    background-size: cover;
+    background-attachment: fixed
+}
+
+#myVideo {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: -2;
+}
+
+/*Hour Of Code page*/
+
+.hour-of-code {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.hour-of-code header {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 90px;
+    padding-top: 20px;
+}
+
+
+.eventDetails {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    /* Activate Flexbox */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+
+}
+
+.sectionHeading {
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+.eventDetails ul {
+    list-style: none;
+    padding: 0;
+}
+
+.eventDetails li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.eventDetails strong {
+    font-weight: bold;
+    color: #f0f0f0;
+
+    /* Preparation Section Styling */
+    .preparation {
+        margin: 40px 20px;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 10px;
+        color: white;
+        font-family: Arial, sans-serif;
+    }
+
+    .sectionHeading {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: center;
+        color: white;
+        /* White heading */
+    }
+
+    .preparation p {
+        font-size: 18px;
+        line-height: 1.8;
+        text-align: justify;
+        color: white;
+        /* Ensure paragraphs are white */
+        margin: 10px 0;
+    }
+
+    .prepPhoto {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .prepPhoto img {
+        width: 70%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    li {
+        font-size: 18px;
+        line-height: 1.6;
+        color: white;
+        margin: 5px 0;
+    }
+
+    strong {
+        font-weight: bold;
+        color: white;
+    }
+}
+
+.image-container {
+    display: flex;
+    /* Activate Flexbox */
+    justify-content: center;
+    /* Center images horizontally */
+    align-items: center;
+    /* Align images vertically */
+    gap: 20px;
+    /* Space between the images */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Default Dark Mode */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode nav {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+body.dark-mode .navLink {
+    color: white;
+}
+
+/* Light Mode */
+body.light-mode {
+    background-color: #ffffff;
+    color: #121212;
+}
+
+body.light-mode nav {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+body.light-mode .navLink {
+    color: black;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 500px;
+    cursor: pointer;
+    size: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    display: flex;
+    align-items: center; /* Align text and image vertically */
+    gap: 10px; /* Space between the image and text */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+}
+
+body.light-mode button {
+    background-color: white;
+    color: black;
+}
+
+body.light-mode button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.profile-details {
+    background-color: rgba(255, 255, 255, 0.8); /* Light background */
+    padding: 10px;
+    border-radius: 10px;
+    color: #121212; /* Dark text for light mode */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+body.dark-mode .profile-details {
+    color: #000000; /* Light text for visibility */
+}
+
+.profile-details h1 {
+    color: #240889 !important;
+}
+
+body.light-mode .navLink:hover,
+body.light-mode .navLink {
+    color: #f1c40f;
+}
+
+body.dark-mode .navLink:hover,
+body.dark-mode .navLink {
+    color: #f1c40f;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index-css.css">
+
+    <script src="script.js" defer></script>
+    <link rel="icon" href="media/Logo.png" type="image/png">
+
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="media/quantum-video.mp4" type="video/mp4">
+    </video>
+    <script>
+        var video = document.getElementById('myVideo');
+        video.playbackRate = 0.5;
+    </script>
+    <nav>
+        <a class="logo">
+            <img src="media/Logo.png" alt="Logo" class="nav-logo">
+        </a>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1 class="main-heading">Welcome To Our Website!</h1>
+            
+        </header>
+        <div class="sub-heading">Here you can get to know one of the teams from SITE at ADA University, learn about the Hour of Code event held by us, and learn about how we created this website!</div>
+        <main>
+            <a href="index.html" class="active navLink">Home</a>
+            <a href="team-members.html" class="navLink">Team</a>
+            <a href="hour-of-code.html" class="navLink">Hour of Code</a>
+            <a href="web-project.html" class="navLink">Website</a>
+            <a href="code-artist.html" class="navLink"> Code Art </a>
+        </main>
+    </div>
+    <section class="section" id="implementation">
+        <p>
+            The team name - <strong style="font-size: 25px; color: coral;">Quantum Coders</strong> embodies our commitment to excellence and innovation in programming. Our slogan, reflects our dedication to crafting efficient and dynamic web solutions. With a passion for leveraging JavaScript to bring ideas to life, we believe that with precision and creativity, we can build seamless and impactful web experiences.
+        </p>
+    </section>
+
+    <div class="mode">
+        <button id="toggle-button">
+            <img src="media/light-mode.png" alt="Mode Icon" id="mode-icon">
+        </button>
+    </div>
+    
+    <footer class="footer">Precision in Every Line of Code!</footer>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+  body.night-mode {
+    background-color: #121212; /* Dark background for night mode */
+    color: #e0e0e0; /* Light text color */
+}
+
+.night-mode .content-container {
+    background-color: rgba(18, 18, 18, 0.9); /* Darker overlay for night */
+    color: #e0e0e0; /* Light text */
+}
+
+.night-mode header h1,
+.night-mode main h2 {
+    color: #004080; /* Soft purple accent for headings in night mode */
+}
+
+.night-mode nav ul {
+    background-color: rgba(0, 0, 0, 0.8); /* Darker navbar */
+}
+
+.night-mode nav ul li a {
+    color: #e0e0e0; /* Light links */
+}
+
+.night-mode nav ul li a:hover {
+    background-color: #004080; /* Soft purple highlight */
+}
+
+.night-mode footer {
+    background-color: rgba(18, 18, 18, 0.9); /* Match the night mode background */
+    color: #e0e0e0; /* Light text */
+}
+
+.night-mode .social-links img {
+    filter: brightness(0.8); /* Dim icons in night mode */
+}
+
+.night-mode .toggle-button {
+    background-color: rgba(18, 18, 18, 0.9); /* Purple button for night mode */
+    color: white; /* High contrast text */
+}
+
+.night-mode .toggle-button:hover {
+    background-color: #e0e0e0;
+    color: black;
+}
+/* General Night Mode Text Styles */
+.night-mode {
+    color: #ffffff; /* White text for all general content */
+}
+
+.night-mode p, 
+.night-mode h1, 
+.night-mode h2, 
+.night-mode h3, 
+.night-mode h4, 
+.night-mode h5, 
+.night-mode h6, 
+.night-mode ul, 
+.night-mode ol, 
+.night-mode li, 
+.night-mode a {
+    color: #ffffff; /* Apply white color to all text elements */
+}
+
+.night-mode a:hover {
+    color: #ffffff; /* Soft purple for links on hover in night mode */
+}
+
+body.night-mode {
+    background-color: #121212; /* Dark mode background */
+    color: #e0e0e0; /* Light text */
+}
+
+body.night-mode nav {
+    background-color: rgba(0, 0, 0, 0.8); /* Dark navbar */
+}
+
+body.night-mode .navLink {
+    color: #e0e0e0; /* Light links in navbar */
+}
+
+body.night-mode footer {
+    background-color: #121212; /* Match dark mode */
+    color: #e0e0e0; /* Footer text in dark mode */
+}
+
+body.night-mode button {
+    background-color: rgba(18, 18, 18, 0.9); /* Dark button */
+    color: white; /* Button text */
+}
+
+body.night-mode button:hover {
+    background-color: white;
+    color: black;
+}
